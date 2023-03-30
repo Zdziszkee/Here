@@ -14,6 +14,8 @@ public class Main {
         System.out.println(EfficientContains.exists(3, array));
 
 
+
+
     }
 
 
