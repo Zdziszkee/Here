@@ -38,8 +38,8 @@ public class JsonParser {
               }
             }
             """;
-
-    JsonElement parseJson(String json) {
+   //https://www.json.org/json-en.html
+    public JsonElement parseJson(String json) {
         //TODO parser implementation
         if (json.isEmpty()) {
             return JsonNull.INSTANCE;
