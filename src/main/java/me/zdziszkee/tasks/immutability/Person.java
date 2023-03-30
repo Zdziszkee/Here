@@ -1,4 +1,4 @@
-package me.zdziszkee.tasks;
+package me.zdziszkee.tasks.immutability;
 
 import java.util.Date;
 

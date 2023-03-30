@@ -1,4 +1,4 @@
-package me.zdziszkee.tasks;
+package me.zdziszkee.tasks.contains;
 
 public class EfficientContains {
     public static boolean exists(int element, int[] array) {

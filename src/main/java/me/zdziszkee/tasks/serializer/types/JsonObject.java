@@ -1,13 +1,12 @@
 package me.zdziszkee.tasks.serializer.types;
 
 
-import com.google.gson.internal.LinkedTreeMap;
-
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
 public class JsonObject extends JsonElement {
-    private final LinkedTreeMap<String, JsonElement> members = new LinkedTreeMap<>(false);
+    private final LinkedHashMap<String, JsonElement> members = new LinkedHashMap<>();
 
 
     public void add(String property, JsonElement value) {

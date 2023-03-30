@@ -1,6 +1,5 @@
-package me.zdziszkee.tasks;
+package me.zdziszkee.tasks.sorting;
 
-import java.util.concurrent.ThreadLocalRandom;
 
 public class ArraySort {
     public static void sort(int[] array) {
